@@ -5,7 +5,7 @@
  * author: Bremen Braun
  */
 ;(function($) {
-	$.fn.disableScroll = function(opts) {
+	$.fn.disableScroll = function() {
 		var $this = $(this),
 		    html = $('html');
 		
